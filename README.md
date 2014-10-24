@@ -5,7 +5,7 @@ Gogs is a painless self-hosted Git Service written in Go.
 
 Microbox repackage Gogs from the latest source and make it into a solid and easy-to-use docker image.
 
-Launch your Gogs server and store gogs data at local. You can easily upgrade to a newer version later.
+Use the following command to launch your Gogs server and store gogs data at local. You can easily upgrade to a newer version later.
 
 ```bash
 docker run -d -p 22:22 -p 3000:3000 -v /data/gogs:/data microbox/gogs:latest
