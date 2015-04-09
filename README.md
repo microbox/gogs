@@ -25,12 +25,14 @@ docker run -d -p 22:22 -p 3000:3000 -v /data/gogs:/data microbox/gogs:latest --n
 
 ### Version
 
+- 0.6.1
 - 0.5.6
 
 ### Components
 
-- gogs 0.5.6
-- sshd 6.0-p1
+- gogs 0.6.1
+- openssh 6.0p1
+- git 1.7.10.4
 
 ### Image Size
 
