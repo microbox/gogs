@@ -25,6 +25,7 @@ docker run -d -p 22:22 -p 3000:3000 -v /data/gogs:/data microbox/gogs:latest --n
 
 ### Version
 
+- 0.6.4
 - 0.6.1
 - 0.5.6
 
